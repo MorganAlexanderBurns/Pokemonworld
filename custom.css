@@ -1,0 +1,64 @@
+/* Global Styles */
+body {
+    padding-top: 56px; /* Adjusted for fixed navbar */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #EF5350; /* Reddish color for Pokémon theme */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* White color for text */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Header Styles */
+header {
+    padding: 7rem 0;
+    background-image: url('assets/pokemon-header-bg.jpg'); /* Replace with your header background image */
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF; /* White text on header */
+}
+
+/* About, Services, Contact Sections Styles */
+section {
+    padding: 4rem 0;
+}
+
+/* Footer Styles */
+footer {
+    padding: 2rem 0;
+    color: #FFFFFF; /* White text in footer */
+}
+
+/* Button Styles */
+.btn-light {
+    background-color: #FFD700; /* Gold color for buttons */
+    color: #000000; /* Black text on buttons */
+}
+
+.btn-light:hover {
+    background-color: #DAA520; /* Darker gold color on hover */
+}
+
+/* Gallery Section Styles */
+#gallery {
+    background-color: #F5F5F5; /* Light gray background for gallery section */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding-top: 45px; /* Adjusted padding for smaller screens */
+    }
+}
